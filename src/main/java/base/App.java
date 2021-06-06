@@ -49,7 +49,7 @@ public class App {
         System.out.print("Enter the rate of interest: ");
         double interest = input.nextDouble();
         System.out.print("Enter the number of years: ");
-        int yearNum = input.nextByte();
+        int yearNum = input.nextInt();
 
         double investment = (double) Math.round(principal*(1+(interest/100)*yearNum));
 
